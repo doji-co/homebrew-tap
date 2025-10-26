@@ -3,7 +3,7 @@ cask "agent-builder" do
   name "agent-builder"
   desc "ADK Multi-Agent Builder CLI"
   homepage "https://github.com/doji-co/agent-builder"
-  version "0.1.6"
+  version "0.1.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "agent-builder" do
   on_macos do
     on_intel do
       url "https://github.com/doji-co/agent-builder/releases/download/v#{version}/agent-builder_Darwin_x86_64.tar.gz"
-      sha256 "f39d91fefd22b47ce84231c7a93e873e444e9c8cae63788405c7b7c40a590a52"
+      sha256 "062a9c9044b9a7d6942fedecdaff0df71425536c8067a27b46fb4f869cd3c864"
     end
     on_arm do
       url "https://github.com/doji-co/agent-builder/releases/download/v#{version}/agent-builder_Darwin_arm64.tar.gz"
-      sha256 "3c8c4338a7b67f44efb23228f81228ac51541e27decd453914fdbf9e1592fa14"
+      sha256 "26f53a5d5c824b83fced3c795e4de758214d1b866d10513f13e308ff561b5093"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/doji-co/agent-builder/releases/download/v#{version}/agent-builder_Linux_x86_64.tar.gz"
-      sha256 "97d6a7e71e0eb30c777216b4e015aeb5fc6fe5998c5dc696ebd634739f80e810"
+      sha256 "81e71ce152269278386adcc6fb16a0df0c671db0d06fa1f3f217a1993b00a1c7"
     end
     on_arm do
       url "https://github.com/doji-co/agent-builder/releases/download/v#{version}/agent-builder_Linux_arm64.tar.gz"
-      sha256 "fb54f8b2ecf17f5942dc41f4561974d5291ef5515a06e2d176f1a40447a41539"
+      sha256 "6cc9bdcfe5b44b4563ca258c5e9e5ed8f214ae100554985e91c96cd26a8af860"
     end
   end
 
